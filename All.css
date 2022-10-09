@@ -54,7 +54,7 @@ body{
      width: 100%;
    }
    .background_image1{
-     background-image: url("./image/home.jpg");
+     background-image: url("../image/home.jpg");
      background-size: cover;
      background-repeat: no-repeat;
      height: 110vh;
@@ -225,7 +225,7 @@ body{
       font-size: 24px;
   }
   .bg_img{
-    background-image: url("./image/contact_us.jpg");
+    background-image: url("../image/contact_us.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       height: 100%;
@@ -242,7 +242,7 @@ body{
   .bbbody{
     /* margin: 0px; */
     /* padding: 0px; */
-    background-image: url("./image/blood_bank.jpg");
+    background-image: url("../image/blood_bank.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       height: 100%;
