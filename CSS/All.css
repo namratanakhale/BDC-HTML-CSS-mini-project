@@ -75,9 +75,8 @@ body{
  
    .btn{
      width:100px;
-     height:30px;
+     height:55px;
      background-color: #000407;
-     color:aliceblue;
      border-radius: 6px;
      text-align: center;
      margin-top: 0px;
@@ -85,7 +84,14 @@ body{
      margin-top: 20px;
      font-size: medium;
      font-family: cursive;
+     cursor: pointer;
+     
    }
+    
+   .rnow{
+    color: aliceblue;
+   }
+
    .footer{
      display: flex;
      background-color: #46423e;
@@ -237,6 +243,9 @@ body{
       padding-bottom: 200px;
       border-radius: 5px;
       }
+  #button{
+    cursor: pointer;
+  }
    
   /* For Blood Bank */
   .bbbody{
@@ -265,13 +274,16 @@ body{
   } 
   #state{
     height : 30px;
+    cursor: pointer;
   }
   #district{
     height : 30px;
+    cursor: pointer;
   }
   
   #city{
     height : 30px;
+    cursor: pointer;
   }
   #search{
     height: 42px;
@@ -281,6 +293,7 @@ body{
     font-size: 20px;
     width: 100px;
     border-radius: 7px;
+    cursor: pointer;
   }
   .box-body{
     height: 768px;
@@ -344,6 +357,7 @@ body{
         background-color: #012D1E;
         color: white;
         border-radius: 8px;
+        cursor: pointer;
       }
     
       
@@ -355,5 +369,12 @@ body{
         text-align: center;
         height: 110vh;
          background-image: linear-gradient(rgb(83, 164, 246), #f6f7f7);
+         margin-top: -22px;
+         padding: 40px;
     }
+
+    .backbtn{
+      cursor: pointer;
+    }
+
     
